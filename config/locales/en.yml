@@ -1,33 +1,122 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  following: "following"
+  follow: "Follow"
+  unfollow: "Unfollow"
+  title: "Page"
+  micropost: "micropost"
+  hi: "Hi"
+  placeholder: "Compose new micropost..."
+  view_my_profile: "view my profile"
+  submit: "Submit"
+  update_pass: "Update password"
+  reset_password: "Password reset"
+  active_link: "Activate"
+  mail_to: "to@example.org"
+  ac_active: "Account activation"
+  title_content: "Ruby on Rails Tutorial TestAPP"
+  pro_update: "Profile updated"
+  please: "Please log in."
+  acc_active: "Account activated!"
+  ivl_link: "Invalid activation link"
+  mails_send: "noreply@example.com"
+  about: "About"
+  not_active: "Account not activated."
+  check_mail: "Check your email for the activation link."
+  sure: "You sure?"
+  please_check: "Please check your email to activate your account."
+  contact: "Contact"
+  all_user: "All user"
+  home: "Home"
+  help: "Help"
+  login: "Log in"
+  destroy_user: "User deleted"
+  new: "News"
+  users1: "Users"
+  no_user: "No User!"
+  testapp: "Test App"
+  profile: "Profile"
+  setting: "Settings"
+  logout: "Log out"
+  pass_has_reset: "Password has been reset."
+  pass_has_reset_expired: "Password reset has expired."
+  pass_reset_cnt: "Email sent with password reset instructions"
+  pass_reset_not: "Email address not found"
+  cant_empty: "can't be empty"
+  mcr_create: "Micropost created!"
+  mcr_delete: "Micropost deleted"
+  less_than: "should be less than 5MB"
+  static_pages:
+    home:
+      title: "Home Page"
+      hello: "Hello, I'm homepage. Wellcome!"
+      email: "Ruby on Rails Tutorial"
+      tetsapp: "test app."
+      sigup: "Sing up now!"
+      mcr_feed: "Micropost Feed"
+    help:
+      help: "Wellcome Help Page"
+    contact:
+      contact: "Contact Page"
+      content_contact1: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      content_contact2: "contact page"
+  layouts:
+    _footer:
+      the: "the"
+      myname: "Michael Hartl"
+      by: "by"
+    _header:
+      account: "Account"
+  users:
+    new:
+      sigup: "Sign up"
+      content_new: "This will be a signup page for new users."
+      create_account: "Create my account"
+      confirm: "Confirmation"
+    edit:
+      title_edit: "Edit user"
+      save_change: "Save changes"
+      ed_content: "Update your profile"
+      ed_change: "Change"
+    index:
+    _user:
+      delete: "delete"
+    _error_messages:
+      _error_content: "The form contains"
+      error: "error"
+    show:
+      show_mcr: "Microposts"
+  sessions:
+    login_flash: "Invalid email/password combination"
+    new:
+      newuser: "New user?"
+      sig: "Sign up now!"
+      remember: "Remember me on this computer"
+      forgot_pass: "(forgot password)"
+  account_activation:
+    wellcome_act: "Welcome to the Sample App! Click on the link below to activate your account:
+      "
+  user_mailer:
+    password_reset:
+      title_pass_reset: "Password reset"
+      content_1_pass_reset: "To reset your password click the link below:"
+      content_2_pass_reset: "This link will expire in two hours."
+      content_3_pass_reset: "If you did not request your password to be reset, please ignore this email and
+        your password will stay as it is."
+      pass_text_content1: "To reset your password click the link below:"
+      pass_text_content2: "This link will expire in two hours."
+      pass_text_content3: "If you did not request your password to be reset, please ignore this email and
+        your password will stay as it is."
+  password_reset:
+    edit:
+      reset_pass: "Reset password"
+      confim_text: "Confirmation"
+    new:
+      forgot_password: "Forgot password"
+  micropost:
+    _micropost:
+      post: "Posted"
+      ago: "ago."
+      alert_infor: "Maximum file size is 5MB. Please choose a smaller file."
+  shared:
+    _micropost_form:
+      img: "image/jpeg,image/gif,image/png"
