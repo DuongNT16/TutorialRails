@@ -1,0 +1,13 @@
+size: 80
+session_ctl_number: 1
+name:
+  maximum_value: 60
+email:
+  maximum_value: 255
+password:
+  minximum_value: 6
+us_index:
+  size: 50
+img:
+  size: 1024
+host: "localhost:3000"
